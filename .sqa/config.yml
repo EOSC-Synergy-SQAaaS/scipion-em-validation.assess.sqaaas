@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/1.7.3
+      branch: release/1.7.4
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/I2PC/scipion-em-validation:
       branch: main
@@ -15,52 +15,40 @@ sqa_criteria:
     repos:
       github.com/I2PC/scipion-em-validation git:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-bistre-lemur.sh
-        container: qc.acc_slaphappy-ecru-dunker
+        - /usr/bin/env sh .sqa/script.nippy-grey-spider.sh
+        container: qc.acc_shabby-khaki-mayfly
   QC.Doc:
     repos:
       github.com/I2PC/scipion-em-validation find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-buff-fox.sh
-        container: qc.doc_boozy-cerulean-nightingale
+        - /usr/bin/env sh .sqa/script.stuffy-chartreuse-chin.sh
+        container: qc.doc_boozy-chestnut-turkey
       github.com/I2PC/scipion-em-validation git:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-flax-crocodile.sh
-        container: qc.doc_ugly-azure-wasp
-      github.com/I2PC/scipion-em-validation markdownlint:
-        commands:
-        - /usr/bin/env sh .sqa/script.flimsy-bistre-cockroach.sh
-        container: qc.doc_muggy-lemon-sparrow
+        - /usr/bin/env sh .sqa/script.tasty-apricot-gorilla.sh
+        container: qc.doc_breezy-ochre-hornet
   QC.Lic:
     repos:
       github.com/I2PC/scipion-em-validation licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-teal-bear.sh
-        container: qc.lic_cheeky-champagne-newt
+        - /usr/bin/env sh .sqa/script.cranky-ultramarine-chinook.sh
+        container: qc.lic_tacky-russet-hound
   QC.Sec:
     repos:
       github.com/I2PC/scipion-em-validation bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-olive-snake.sh
-        container: qc.sec_tacky-cinnamon-kiwi
+        - /usr/bin/env sh .sqa/script.skimpy-lemon-donkey.sh
+        container: qc.sec_wiggy-celadon-neanderthal
   QC.Sty:
     repos:
       github.com/I2PC/scipion-em-validation flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-periwinkle-sloth.sh
-        container: qc.sty_tacky-russet-sheepdog
-      github.com/I2PC/scipion-em-validation hadolint:
-        commands:
-        - /usr/bin/env sh .sqa/script.sleepy-malachite-pinscher.sh
-        container: qc.sty_baggy-white-dugong
-      github.com/I2PC/scipion-em-validation jsonlint:
-        commands:
-        - /usr/bin/env sh .sqa/script.silly-cornflower-dodo.sh
-        container: qc.sty_pasty-zucchini-wrasse
+        - /usr/bin/env sh .sqa/script.shaggy-amaranth-woodlouse.sh
+        container: qc.sty_stinky-xanthic-newfoundland
   QC.Ver:
     repos:
       github.com/I2PC/scipion-em-validation get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-denim-greyhound.sh
-        container: qc.ver_gloppy-silver-audemer
+        - /usr/bin/env sh .sqa/script.cozy-lilac-affenpinscher.sh
+        container: qc.ver_droopy-bronze-kakapo
 timeout: 1800
