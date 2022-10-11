@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       github.com/I2PC/scipion-em-validation git:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-celadon-ladybird.sh
-        container: qc.acc_stealthy-champagne-pig
+        - /usr/bin/env sh .sqa/script.bumpy-peach-oyster.sh
+        container: qc.acc_ready-alizarin-tarsier
   QC.Doc:
     repos:
       github.com/I2PC/scipion-em-validation find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-seashell-wasp.sh
-        container: qc.doc_paltry-orange-seahorse
+        - /usr/bin/env sh .sqa/script.pretty-amber-liger.sh
+        container: qc.doc_frumpy-thistle-cow
       github.com/I2PC/scipion-em-validation git:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-cardinal-monkey.sh
-        container: qc.doc_paltry-tomato-beaver
+        - /usr/bin/env sh .sqa/script.frumpy-ecru-albatross.sh
+        container: qc.doc_randy-amethyst-beagle
       github.com/I2PC/scipion-em-validation markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-celadon-alligator.sh
-        container: qc.doc_ugly-gold-albatross
+        - /usr/bin/env sh .sqa/script.skanky-chartreuse-dormouse.sh
+        container: qc.doc_snappy-seashell-tuatara
   QC.Lic:
     repos:
       github.com/I2PC/scipion-em-validation licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-orchid-dodo.sh
-        container: qc.lic_slaphappy-russet-falcon
+        - /usr/bin/env sh .sqa/script.snappy-fuchsia-meerkat.sh
+        container: qc.lic_lousy-seashell-llama
   QC.Met:
     repos:
       github.com/I2PC/scipion-em-validation cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-myrtle-flamingo.sh
-        container: qc.met_lovely-olive-tang
+        - /usr/bin/env sh .sqa/script.geeky-teal-shrimp.sh
+        container: qc.met_wiggy-asparagus-chin
   QC.Sec:
     repos:
       github.com/I2PC/scipion-em-validation bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-lemon-newfoundland.sh
-        container: qc.sec_whiny-green-gopher
+        - /usr/bin/env sh .sqa/script.stealthy-ecru-tang.sh
+        container: qc.sec_hasty-platinum-wolverine
   QC.Sty:
     repos:
       github.com/I2PC/scipion-em-validation flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-copper-dog.sh
-        container: qc.sty_messy-lilac-chinchilla
+        - /usr/bin/env sh .sqa/script.homey-saffron-whale.sh
+        container: qc.sty_gloppy-eggplant-wolfhound
   QC.Ver:
     repos:
       github.com/I2PC/scipion-em-validation get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-green-oriole.sh
-        container: qc.ver_zippy-coral-ostrich
+        - /usr/bin/env sh .sqa/script.homey-platinum-albatross.sh
+        container: qc.ver_hazy-gamboge-whippet
 timeout: 1800
