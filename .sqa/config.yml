@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       github.com/I2PC/scipion-em-validation git:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-firebrick-dane.sh
-        container: qc.acc_cozy-blue-vole
+        - /usr/bin/env sh .sqa/script.fuzzy-salmon-toucan.sh
+        container: qc.acc_skinny-chocolate-affenpinscher
   QC.Doc:
     repos:
       github.com/I2PC/scipion-em-validation find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-myrtle-tzu.sh
-        container: qc.doc_sleazy-cyan-gorilla
+        - /usr/bin/env sh .sqa/script.zippy-magnolia-frigatebird.sh
+        container: qc.doc_tasty-flax-retriever
       github.com/I2PC/scipion-em-validation git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-goldenrod-uguisu.sh
-        container: qc.doc_lumpy-chestnut-devil
+        - /usr/bin/env sh .sqa/script.pretty-fuchsia-cassowary.sh
+        container: qc.doc_lovely-firebrick-kudu
       github.com/I2PC/scipion-em-validation markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-saffron-bobcat.sh
-        container: qc.doc_hilly-khaki-wasp
+        - /usr/bin/env sh .sqa/script.nippy-rose-lion.sh
+        container: qc.doc_goopy-wisteria-cuscus
   QC.Lic:
     repos:
       github.com/I2PC/scipion-em-validation licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-vermilion-wombat.sh
-        container: qc.lic_stinky-gamboge-chameleon
+        - /usr/bin/env sh .sqa/script.sleepy-charcoal-snake.sh
+        container: qc.lic_boozy-magenta-squirrel
   QC.Met:
     repos:
       github.com/I2PC/scipion-em-validation cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-rose-snail.sh
-        container: qc.met_squirrely-rust-dhole
+        - /usr/bin/env sh .sqa/script.cozy-violet-whippet.sh
+        container: qc.met_wheezy-myrtle-stoat
   QC.Sec:
     repos:
       github.com/I2PC/scipion-em-validation bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-pumpkin-setter.sh
-        container: qc.sec_breezy-maroon-sparrow
+        - /usr/bin/env sh .sqa/script.hasty-vermilion-schnauzer.sh
+        container: qc.sec_sunny-khaki-meerkat
   QC.Sty:
     repos:
       github.com/I2PC/scipion-em-validation flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-scarlet-seahorse.sh
-        container: qc.sty_nippy-harlequin-lobster
+        - /usr/bin/env sh .sqa/script.queasy-cobalt-rhinoceros.sh
+        container: qc.sty_slimy-rust-warthog
   QC.Ver:
     repos:
       github.com/I2PC/scipion-em-validation get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-periwinkle-coral.sh
-        container: qc.ver_nerdy-razzmatazz-mouse
+        - /usr/bin/env sh .sqa/script.goopy-gold-newfoundland.sh
+        container: qc.ver_gimpy-magnolia-rat
 timeout: 1800
